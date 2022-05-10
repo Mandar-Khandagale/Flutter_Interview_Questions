@@ -198,3 +198,25 @@ Riverpod
 Use debug mode during development, when you want to use hot reload.
 Use profile mode when you want to analyze performance.
 Use release mode when you are ready to release your app.
+
+29. Is there is data binding in flutter?
+--> No
+    Instead Flutter has a widget binding, namely InheritedWidget.
+It binds two or more widgets together (one provider and some consumers) so that whenever one updates, all of its dependencies are forced to update too.
+
+
+30. What is data binding?
+-->
+    Data binding is the process of connecting a display element, such as a user interface control, with the information that populates it.
+This connection provides a path for the information to travel between the source and the destination. For example, consider the main window on your favorite browser.
+
+31. Method overloading vs overriding?
+-->
+    Method Overloading is a Compile time polymorphism. In method overloading, more than one method shares the same method name with a different
+signature in the class. In method overloading, the return type can or can not be the same, but we have to change the parameter because, in java,
+we can not achieve the method overloading by changing only the return type of the method. 
+
+Method Overriding is a Run time polymorphism. In method overriding, the derived class provides the specific implementation of the method that is
+already provided by the base class or parent class. In method overriding, the return type must be the same or co-variant (return type may vary in
+the same direction as the derived class). 
+
